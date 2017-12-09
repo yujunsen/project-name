@@ -18,7 +18,7 @@ Debug:
 Run:
 	./$(TARGET)
 PUSH:
-	git add ~/mywork/*
+	git add *
 	git commit -m '$(TARGET)'
 	git push -u origin master
 
