@@ -17,6 +17,10 @@ Debug:
 	gdb $(TARGET)
 Run:
 	./$(TARGET)
+PUSH:
+	git add ~/mywork/*
+	git commit -m '$(TARGET)'
+	git push -u origin master
 
 
 .PHONY:clean
